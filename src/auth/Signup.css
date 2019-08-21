@@ -1,0 +1,131 @@
+.Signup {
+  height: 105vh;
+}
+
+.everything2 {
+  width: 100vw;
+  background-color: rgba(177, 146, 105, 0.219);
+}
+
+.Signup h2 {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 55px;
+}
+
+.Signup .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Signup img {
+  margin-top: 11px;
+  height: 80px;
+}
+
+.Signup Label {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.Signup Form {
+  border: 1px solid black;
+  height: 74vh;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+.Signup .formGroup {
+  margin-bottom: 50px;
+}
+
+.Signup Label {
+  font-size: 25px;
+}
+
+.Signup Input {
+  width: 99.5%;
+  height: 30px;
+  background-color: rgb(226, 214, 197);
+  box-shadow: none;
+  border: none
+}
+
+
+.Signup Button {
+  border: 1px solid black;
+  background-color: black;
+  color: rgb(226, 214, 197);
+  margin-left: 115px;
+  border-radius: 5px;
+  width: 40%;
+  
+}
+
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+.everything2 {
+  width: 100vw;
+  background-color: rgba(177, 146, 105, 0.219);
+  }
+
+.Signup .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.Signup Form {
+  border: 1px solid black;
+  height: 74vh;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .Signup h2 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 55px;
+  }
+
+  .Signup img {
+    margin-top: 11px;
+    height: 110px;
+  }
+
+  .everything2 {
+    width: 100vw;
+    background-color: rgba(177, 146, 105, 0.219);
+    }
+  
+  .Signup .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  .Signup Form {
+    border: 1px solid black;
+    height: 74vh;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+
+}

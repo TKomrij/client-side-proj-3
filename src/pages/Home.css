@@ -1,0 +1,76 @@
+.Home img {
+  width: 100vw;
+  height: 25vh;
+}
+
+.Home p {
+  width: 95vw;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: 'Gruppo', cursive;
+  margin-top: 30px;
+}
+
+.Home a {
+  margin-left: 20px;
+  text-decoration: underline;
+  font-family: 'Julius Sans One', sans-serif;
+  color: black;
+}
+
+.Home .div1, .div2, .div3{
+  padding-bottom: 40px;
+  background-color: rgba(177, 146, 105, 0.219);
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .Home img {
+    width: 100vw;
+    height: 33.4vh;
+  }
+
+  .Home p {
+    width: 95vw;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+    margin-top: 30px;
+  }
+
+  .Home a {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    font-size: 25px;
+  }
+
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+  .Home img {
+    width: 100vw;
+    height: 37vh;
+  }
+
+  .Home p {
+    width: 95vw;
+    margin-left: 20px;
+    font-size: 23px;
+    font-family: 'Gruppo', cursive;
+    margin-top: 30px;
+  }
+
+  .Home a {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    font-size: 25px;
+  }
+}

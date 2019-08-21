@@ -1,0 +1,176 @@
+.DrinkDetailTile{
+  background-color: rgba(177, 146, 105, 0.219);
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.DrinkDetailTile .img {
+  padding-top: 8vh;
+  height: 56.3vh;
+  width: 100vw;
+}
+
+.DrinkDetailTile h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.DrinkDetailTile .row {
+  display: flex;
+  flex-direction: row;
+  width: 97vw;
+  margin-left: 10px;
+  
+}
+
+ .DrinkDetailTile .column {
+   margin-right: 40px;
+   
+ }
+
+ .DrinkDetailTile p {
+  
+   margin-bottom: 0px;
+ }
+
+ .DrinkDetailTile .ing {
+   margin-bottom: 30px;
+ }
+
+ .DrinkDetailTile .glass {
+   padding-bottom: 20px;
+   margin-left: 10px;
+ }
+
+ .DrinkDetailTile .like {
+  height: 50px;
+  float: right;
+  margin-top: -60px; 
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+  width: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/174/174400.svg");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-color: rgba(177, 146, 105, 0);
+  background-position-x: -5px;
+  background-position-y: 5px;
+}
+
+.DrinkDetailTile .like:active {
+  background-color: red;
+}
+
+.spacer {
+  height: 8vh;
+  width: 100%;
+}
+
+/* ------------------------ */
+
+ @media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .DrinkDetailTile .img {
+    padding-top: 8vh;
+    height: 56.3vh;
+    width: 70vw;
+  }
+
+  .DrinkDetailTile .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }  
+
+  .DrinkDetailTile h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .DrinkDetailTile h3 {
+    font-size: 35px;
+  }
+
+  .DrinkDetailTile p {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .DrinkDetailTile{
+    background-color: rgba(177, 146, 105, 0.219);
+    font-family: 'Julius Sans One', sans-serif;
+    height: 112vh;
+  }
+
+  .DrinkDetailTile .glass {
+    padding-bottom: 16px;
+    margin-left: 10px;
+    
+  }
+ }
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .DrinkDetailTile .img {
+    padding-top: 8vh;
+    height: 56.3vh;
+    width: 60vw;
+  }
+
+  .DrinkDetailTile .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }  
+
+  .DrinkDetailTile h1 {
+    text-align: center;
+    font-size: 65px;
+  }
+
+  .DrinkDetailTile h3 {
+    font-size: 50px;
+    margin-left: 30px;
+  }
+
+  .DrinkDetailTile p {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  .DrinkDetailTile{
+    background-color: rgba(177, 146, 105, 0.219);
+    font-family: 'Julius Sans One', sans-serif;
+    height: 124vh;
+  }
+
+  .DrinkDetailTile .glass {
+    padding-bottom: 16px;
+    margin-left: 30px;
+    
+  }
+
+  .DrinkDetailTile .like {
+    height: 70px;
+    float: right;
+    margin-top: -85px; 
+    margin-right: 230px;
+    border: none;
+    border-radius: 30px;
+    width: 30px;
+    background-image: url("https://image.flaticon.com/icons/svg/174/174400.svg");
+    background-repeat: no-repeat;
+    background-size: 61px;
+    background-color: rgba(177, 146, 105, 0);
+    background-position-x: -15px;
+    background-position-y: 5px;
+  }
+  
+  .DrinkDetailTile .like:active {
+    background-color: red;
+  }
+
+}

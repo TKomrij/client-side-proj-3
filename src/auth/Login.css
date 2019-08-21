@@ -1,0 +1,138 @@
+.Login {
+  height: 100vh;
+}
+
+.everything {
+  width: 100vw;
+  background-color: rgba(177, 146, 105, 0.219);
+}
+
+.Login .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Login img {
+  margin-top: 13px;
+  height: 80px;
+}
+
+.Login h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+.Login Label {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.Login Form {
+  border: 1px solid black;
+  height: 60vh;
+  border-radius: 10px;
+  padding-top: 60px;
+  margin-top: 15px;
+  width: 92vw;
+}
+
+
+.Login .formGroup {
+  margin-bottom: 70px;
+}
+
+.Login Label {
+  font-size: 25px;
+}
+
+.Login Input {
+  width: 99.5%;
+  height: 30px;
+  background-color: rgb(226, 214, 197);
+  box-shadow: none;
+  border: none
+}
+
+
+.Login Button {
+  border: 1px solid black;
+  background-color: black;
+  color: rgb(226, 214, 197);
+  margin-left: 119px;
+  border-radius: 5px;
+  width: 40%;
+  margin-top: 80px;
+  
+}
+
+.Login .signup {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .Login Form {
+    border: 1px solid black;
+    height: 60vh;
+    border-radius: 10px;
+    padding-top: 60px;
+    margin-top: 30px;
+    width: 90vw;
+  }
+
+  .everything {
+    width: 100vw;
+    background-color: rgba(177, 146, 105, 0.219);
+  }
+
+  .Login .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .Login h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+
+  .Login img {
+    margin-top: 13px;
+    height: 110px;
+  }
+
+  .Login Form {
+    border: 1px solid black;
+    height: 60vh;
+    border-radius: 10px;
+    padding-top: 60px;
+    margin-top: 30px;
+    width: 90vw;
+  }
+
+  .everything {
+    width: 100vw;
+    background-color: rgba(177, 146, 105, 0.219);
+  }
+
+  .Login .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+}

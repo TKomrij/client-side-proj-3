@@ -1,0 +1,80 @@
+.Profile {
+  padding-top: 8vh;
+  background-color: rgba(177, 146, 105, 0.219);
+  height: 100vh;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.Profile img {
+  height: 25vh;
+}
+
+.Profile .picName {
+  margin-top: 30px;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Profile .column {
+  margin-left: 40px;
+  font-size: 25px;
+  margin-top: 50px;
+
+}
+
+.Profile .bottomHalf {
+  height: 30vh;
+  margin-top: 20vh;
+}
+
+.Profile h2 {
+  text-align: center;
+}
+
+.Profile hr {
+  border-bottom: 1px dashed black;
+  width: 30%;
+}
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .Profile h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .Profile img {
+    height: 25vh;
+    margin-left: 20px;
+  }
+
+  .Profile .column {
+    margin-left: 80px;
+    font-size: 40px;
+    margin-top: 100px;
+  
+  }
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .Profile h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .Profile img {
+    height: 30vh;
+    margin-left: 30px;
+  }
+
+  .Profile .column {
+    margin-left: 80px;
+    font-size: 50px;
+    margin-top: 130px;
+  
+  }
+}

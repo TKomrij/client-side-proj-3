@@ -1,0 +1,202 @@
+.Nav {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(177, 146, 105);
+  position: fixed;
+}
+
+.Nav .img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.Nav img {
+  height: 8vh;
+}
+
+.Nav h1{
+  font-size: 15px;
+  margin-top: 37px;
+  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-right: 160px;
+}
+
+.Nav a {
+  text-decoration: none;
+}
+
+.dropbtn {
+  background-color: rgba(177, 146, 105, 0.267);
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 63.8px;
+  height: 53px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 63.8px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(209, 196, 178);
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  width: 8px;
+  margin-left: 5px;
+  font-size: 13px;
+  text-decoration-style: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black;
+  color:  rgb(209, 196, 178);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: black;
+  color: rgb(209, 196, 178);
+}
+
+.Nav .btn2 {
+    color: rgb(209, 196, 178);
+    margin-left: -5px;
+    margin-top: -5px;
+    border: none;
+    background-color: black;
+    width: 10px;
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .Nav .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  
+  }
+
+  .Nav h1{
+    font-size: 25px;
+    margin-top: 55px;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 160px;
+  }
+
+  .dropbtn {
+    background-color: rgba(177, 146, 105, 0.267);
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    width: 90px;
+    height: 80px;
+    margin-left: 280px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 280px;
+  }
+
+  .dropdown-content a {
+    color: rgb(209, 196, 178);
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    width: 8px;
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration-style: none;
+  }
+
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .Nav .img {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  
+  }
+
+  .Nav h1{
+    font-size: 25px;
+    margin-top: 55px;
+    color: black;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-right: 160px;
+  }
+
+  .dropbtn {
+    background-color: rgba(177, 146, 105, 0.267);
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    width: 120px;
+    height: 88px;
+    margin-left: 500px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 500px;
+  }
+
+  .dropdown-content a {
+    color: rgb(209, 196, 178);
+    padding: 12px 0px;
+    text-decoration: none;
+    display: block;
+    width: 8px;
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration-style: none;
+  }
+
+}

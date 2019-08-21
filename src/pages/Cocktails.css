@@ -1,0 +1,98 @@
+.Cocktails {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(177, 146, 105, 0.219);
+  padding-top: 8vh;
+}
+
+.Cocktails .row {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.Cocktails h1 {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  padding-top: 20px;
+  font-weight: 100;
+}
+
+.Cocktails hr {
+  width: 30%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 15px;
+}
+
+.Cocktails a {
+  text-decoration: none;
+  color: black;
+}
+
+.Cocktails .dropdown3 {
+  margin: 0 auto;
+}
+
+.Cocktails input {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(177, 146, 105);
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .Cocktails h1 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 55px;
+  }
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .Cocktails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(177, 146, 105, 0.219);
+    padding-top: 8vh;
+  }
+
+  .Cocktails h1 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 60px;
+  }
+
+  .Cocktails .row {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .Cocktails .next {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .Cocktails input {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(177, 146, 105);
+    width: 50vw;
+    height: 50px;
+    font-size: 25px;
+  }
+
+}

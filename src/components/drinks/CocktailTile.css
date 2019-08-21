@@ -1,0 +1,100 @@
+.CocktailTile img{
+  height: 56vh;
+}
+
+.CocktailTile a {
+  text-decoration: none;
+  color: black;
+}
+
+.CocktailTile p {
+  font-family: 'Julius Sans One', sans-serif;
+  margin-left: 20px;
+}
+
+.CocktailTile .name {
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.CocktailTile .type {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.CocktailTile hr {
+  width: 30%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 961px) and (min-width: 767px) {
+
+  .CocktailTile .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .CocktailTile p {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 95px;
+    margin-top: 20px;
+  }
+
+  .CocktailTile .name {
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+
+  .CocktailTile .type {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+}
+
+/* ------------------------ */
+
+@media screen and (max-width: 1024px) and (min-width: 960px) {
+
+  .CocktailTile img{
+    height: 38vh;
+  }
+
+  .CocktailTile .center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .CocktailTile p {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .CocktailTile .name {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .CocktailTile .type {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  .CocktailTile hr {
+    width: 30%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: none;
+  }
+
+}
